@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+input {
+  font: inherit;
+}
+
+:root {
+  --color-black: #3d3b48;
+  --color-green: #38cc8b;
+  --color-blue: #5e54a4;
+  --color-korall: #ff7979;
+}
+h1 {
+  margin-bottom: 36px;
+}
+
+header {
+  margin-top: 88px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+body {
+  background-image: url(./images/bg-intro-mobile.png);
+  background-color: #ff7979;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-inline: 24px;
+  line-height: 28px;
+}
+
+#free-trial {
+  margin-block: 20px;
+  padding-block: 18px;
+  padding-inline: 66px;
+  background-color: var(--color-blue);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(122, 120, 120, 0.9);
+}
+
+.form-registration {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 7px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  background-color: white;
+}
+
+#terms {
+  color: grey;
+  padding: 19px;
+  font-size: 11px;
+}
+
+input {
+  padding-block: 5px;
+  padding-inline: 19px;
+  border: 1px solid #dedede;
+  border-radius: 7px;
+}
+
+#btn-trial {
+  background-color: var(--color-green);
+  color: white;
+  padding-block: 15px;
+  box-shadow: 0 10px 10px rgba(56, 204, 139, 0.9);
+}
